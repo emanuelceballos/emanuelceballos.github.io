@@ -3,7 +3,7 @@ title: "About"
 description: "Who I am, what I work on, and how I decide what to share."
 ---
 
-I'm **Emanuel Ceballos Torres**, a software engineer and CTO at Matech Studios, a product development studio in Argentina 🇦🇷. We build web applications mainly with Nest.js, React and Next.js.
+I'm **Emanuel Ceballos Torres**, a software engineer and CTO at Matech Studios, a product development studio in Argentina <img src="/flag-ar.svg" alt="" style="display:inline;height:0.9em;width:auto;vertical-align:baseline;margin:0" />. We build web applications mainly with Nest.js, React and Next.js.
 
 Over the last years I have focused on how a studio delivers: turning the path from a client's first conversation to a production release into a repeatable, AI-assisted flow that gives product teams more autonomy and improves both speed and quality.
 

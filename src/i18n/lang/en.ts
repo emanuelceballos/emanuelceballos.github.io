@@ -35,7 +35,7 @@ export default {
   },
   footer: {
     copyright: "Emanuel Ceballos",
-    allRightsReserved: "Made in Argentina 🇦🇷",
+    allRightsReserved: "Made in Argentina",
   },
   pages: {
     tagTitle: "Tag",

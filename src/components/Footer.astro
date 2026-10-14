@@ -24,7 +24,7 @@ const currentYear = new Date().getFullYear();
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
       <span>{t.footer.copyright} &#169; {currentYear}</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>{t.footer.allRightsReserved}</span>
+      <span class="inline-flex items-center gap-1.5">{t.footer.allRightsReserved}<img src={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}flag-ar.svg`} alt="Argentina" class="inline-block h-[0.9em] w-auto" /></span>
     </div>
   </div>
 </footer>
