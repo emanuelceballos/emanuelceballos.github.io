@@ -95,6 +95,32 @@ const rssHref = getRelativeLocaleUrl(
       )
     }
 
+    {
+      site.goatcounter && (
+        <>
+          <script
+            is:inline
+            async
+            src="https://gc.zgo.at/count.js"
+            data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`}
+            data-goatcounter-settings='{"no_onload":true}'
+          />
+          <script is:inline>
+            {`(function () {
+              function hit(tries) {
+                if (window.goatcounter && window.goatcounter.count) {
+                  window.goatcounter.count({ path: location.pathname + location.search });
+                } else if (tries < 20) {
+                  setTimeout(function () { hit(tries + 1); }, 250);
+                }
+              }
+              document.addEventListener("astro:page-load", function () { hit(0); });
+            })();`}
+          </script>
+        </>
+      )
+    }
+
     <!--
       Inline FOUC-prevention script: sets data-theme on <html> before
       the browser paints. Runs synchronously, no defer/async.

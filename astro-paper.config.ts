@@ -11,6 +11,8 @@ export default defineAstroPaperConfig({
     lang: "en",
     timezone: "America/Argentina/Cordoba",
     dir: "ltr",
+    // Cookieless analytics: set your GoatCounter site code to enable it.
+    // goatcounter: "your-code",
   },
   posts: {
     perPage: 4,
