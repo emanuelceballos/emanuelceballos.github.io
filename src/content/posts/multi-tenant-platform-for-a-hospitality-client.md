@@ -1,7 +1,7 @@
 ---
 title: "From spreadsheets to a multi-tenant platform: a hospitality case study"
 description: "How we replaced emails, paper checklists and spreadsheets with a multi-tenant platform and a repeatable onboarding playbook."
-pubDatetime: 2026-10-14T12:00:00-03:00
+pubDatetime: 2023-03-14T12:00:00-03:00
 tags: ["case-study", "architecture", "multi-tenant"]
 featured: true
 draft: false

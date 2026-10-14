@@ -9,6 +9,8 @@ Over the last years I have focused on how a studio delivers: turning the path fr
 
 I'm also studying a degree in Artificial Intelligence and volunteering as a scout leader at [Grupo Scout 926 Malvinas Argentinas](https://gruposcout926.org.ar/), which is why you will occasionally find talks for non-technical audiences here.
 
+I'm also part of the [Toptal Top 3% network](https://www.toptal.com/project-managers/resume/emanuel-ceballos-torres).
+
 ## What you'll find here
 
 - **Engineering notes**: the reasoning behind architecture and process decisions.
