@@ -19,6 +19,10 @@ I'm also studying a degree in Artificial Intelligence and volunteering as a scou
 
 I share the _what_ and the _why_ of a decision, and the trade-offs behind it. I keep the exact _how_ (prompts, internal templates, configurations, client identities) private. If a post makes you curious about the missing details, that's a good reason to get in touch on [LinkedIn](https://www.linkedin.com/in/eceballostorres/) or [GitHub](https://github.com/emanuelceballos).
 
+## Privacy
+
+This site uses [GoatCounter](https://www.goatcounter.com/) for simple, cookieless visit statistics. It sets no cookies and does not track you across sites.
+
 ## License
 
 Content on this site is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The site is built on the MIT-licensed [AstroPaper](https://github.com/satnaing/astro-paper) theme.
