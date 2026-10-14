@@ -106,7 +106,7 @@ const rssHref = getRelativeLocaleUrl(
             data-goatcounter-settings='{"no_onload":true}'
           />
           <script is:inline>
-            {`(function () {
+            (function () {
               function hit(tries) {
                 if (window.goatcounter && window.goatcounter.count) {
                   window.goatcounter.count({ path: location.pathname + location.search });
@@ -115,7 +115,7 @@ const rssHref = getRelativeLocaleUrl(
                 }
               }
               document.addEventListener("astro:page-load", function () { hit(0); });
-            })();`}
+            })();
           </script>
         </>
       )
