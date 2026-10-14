@@ -1,0 +1,24 @@
+---
+title: "About"
+description: "Who I am, what I work on, and how I decide what to share."
+---
+
+I'm **Emanuel Ceballos Torres**, a software engineer and CTO at Matech Studios, a product development studio in Argentina 🇦🇷. We build web applications mainly with Nest.js, React and Next.js.
+
+Over the last years I have focused on how a studio delivers: turning the path from a client's first conversation to a production release into a repeatable, AI-assisted flow that gives product teams more autonomy and improves both speed and quality.
+
+I'm also studying a degree in Artificial Intelligence and volunteering as a scout leader at [Grupo Scout 926 Malvinas Argentinas](https://gruposcout926.org.ar/), which is why you will occasionally find talks for non-technical audiences here.
+
+## What you'll find here
+
+- **Engineering notes**: the reasoning behind architecture and process decisions.
+- **Case studies**: real problems and how we solved them, with clients always anonymized.
+- **Talks**: material from sessions I give to technical and non-technical audiences.
+
+## How I decide what to share
+
+I share the _what_ and the _why_ of a decision, and the trade-offs behind it. I keep the exact _how_ (prompts, internal templates, configurations, client identities) private. If a post makes you curious about the missing details, that's a good reason to get in touch on [LinkedIn](https://www.linkedin.com/in/eceballostorres/) or [GitHub](https://github.com/emanuelceballos).
+
+## License
+
+Content on this site is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The site is built on the MIT-licensed [AstroPaper](https://github.com/satnaing/astro-paper) theme.
