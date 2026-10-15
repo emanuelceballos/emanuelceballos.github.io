@@ -1,5 +1,5 @@
 ---
-title: "AI-assisted delivery: what we measured, and what stays private"
+title: "AI-assisted delivery: what we measured"
 description: "How redesigning delivery from sales handoff to production release, with AI built in, cut PR merge time by about half and saved over 25 hours a week in code review (estimate)."
 pubDatetime: 2026-03-10T12:00:00-03:00
 tags: ["engineering", "ai", "delivery"]
@@ -10,7 +10,7 @@ reviewed: true
 
 At Matech Studios I redesigned how we deliver software. Instead of optimizing one step, we treated the whole path as a single system: from the moment sales hands a project over to the product team, to the moment it reaches production. AI is built into that system rather than bolted onto one tool.
 
-This note shares what we measured and the reasoning behind it. The internals (prompts, templates, configuration) stay private.
+This note shares what we measured and the reasoning behind it.
 
 ## Results
 
@@ -22,10 +22,10 @@ This note shares what we measured and the reasoning behind it. The internals (pr
 
 How we measured, so you can judge the numbers:
 
-- **Time to merge** is the time from the moment a pull request is opened until it is closed.
+- **Time to merge** is the time from the moment a pull request is opened until it is closed, as simple as that.
 - **Defects** are Jira issues of a bug-like type, usually found by QA or another developer in a new feature before it reaches the client. We counted them per sprint or per project.
 - **The baseline** was the last four sprints (two weeks each) before the change.
-- **Review hours saved** is an estimate, not a timer: how long a review used to take, multiplied by how many reviews the team did each week, minus what those reviews cost once AI took over the routine checks. I keep the per-review figures to myself.
+- **Review hours saved** is an estimate, not a timer: how long a review used to take, multiplied by how many reviews the team did each week, minus what those reviews cost once AI took over the routine checks.
 
 ## The scope: from handoff to release
 
@@ -42,7 +42,3 @@ Around the pipeline we kept the human rituals that make delivery predictable acr
 ## If you are starting from zero
 
 Build slowly, but don't reinvent the wheel. You cannot do everything in a day, so be smart about it and go after the most critical problem first: the place where the shoe pinches the most.
-
-## What stays private
-
-Prompts, internal templates, configuration and client details. They are tuned to how our team works, and publishing them without the context behind them would be less useful than the principles above.
